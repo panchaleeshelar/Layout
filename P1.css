@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&family=Roboto:wght@300&display=swap');
+
+.product-info h2{
+    /* border: solid; */
+    /* padding-left: 65px; */
+    font-size: 25px;
+    color:rgb(0,0,0);
+}
+.product-info{
+    /* border: solid; */
+    text-align: center;
+}
+.eshopper{
+    color: #ffc107;
+    
+}
+.slider-content h1{
+    font-size: 80px;
+}
+.slider-content{
+    /* border: solid; */
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.slider-content p{
+    color: rgb(100,100,100);
+}
+  
+.slider-content span{
+    color: #ffc107;
+}
+
+/* HEADER SECTION */
+
+.header-section{
+    /* border: solid; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #666;
+}
+.header-section a:hover{
+    color: #ffc107 !important;
+}
+/* .header-section a:active{
+    color: #ffc107;
+} */
+.top-menu a {
+    color: rgb(0,0,0) !important;
+    
+}
+.top-menu a:active {
+    color: #ffc107 !important;
+}
+.a1{
+    color: #ffc107 !important;
+}
+
+.brand-content a {
+    color: rgb(100,100,100);
+
+}
+.accordion-content a span{
+    color: rgb(100,100,100) !important ;
+}
+.accordion-content a {
+    color: rgb(100,100,100) !important ;
+}
+/* MAIN MENU */
+
+.main-menu{
+    background-color: #fff !important;
+    border-bottom: 1px solid #eee;
+  }
+
+@media only screen and (max-width:575px){
+    .featured-product-4{
+        display: none;
+    }
+    .recommended-product-3{
+        display: none;
+    }
+    .slider-content{
+        display: none;
+    }
+    .logo-image{
+        text-align: center;
+    }
+    .top-menu{
+        justify-content: center !important;
+    }
+}
